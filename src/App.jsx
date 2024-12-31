@@ -1,19 +1,20 @@
-import Form from "./Form.jsx"
-
+import Frm from './Frm2'
+import Map from './Map'
+import Filter from './Filter'
+import Frm2 from './Frm2'
+import Login from './Login'
+import Home from './Home'
 function App() {
-  
-let ar = ["Aditi",24,"bhopal"]
-let arf = ar.map((e,index)=>{return<li key={index}>{e}</li>})
+
   return (
     <>
-{ar.map((e,index)=>{return <h1 key={index}>{e}</h1>}) }
-
-<ul>
-<li>{arf}</li>
-</ul>
-<Form/>
-</>
-)
+    {/* <Frm/>
+    <Map/>
+    <Filter/> */}
+    <Frm2/>
+     
+    </>
+  )
 }
 
 export default App
