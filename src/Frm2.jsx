@@ -1,6 +1,5 @@
 import { useState } from "react"
 import Login from './Login'
-import './Style.css'
 function Frm2(){
      let[inputValue,setInput]=useState({
         username:'',
